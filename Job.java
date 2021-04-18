@@ -6,4 +6,12 @@ public class Job {
         this.duration = duration;
         this.jobNumber = jobNumber;
     }
+
+    public int getJobDuration() {
+        return this.duration;
+    }
+
+    public int getJobId() {
+        return this.jobNumber;
+    }
 }
